@@ -3,8 +3,8 @@ import java.util.Scanner;
 
 public class TwoEventParticipants {
 
-    static Participant[] miniMarathon= new Participant[3];
-    static Participant[] diving= new Participant[3];
+    static Participant[] miniMarathon= new Participant[8];
+    static Participant[] diving= new Participant[8];
     static ArrayList<Participant> sameParticipants = new ArrayList<>();
 
     public static void main(String[] args){
@@ -41,6 +41,8 @@ public class TwoEventParticipants {
         String streetAddress;
 
         for(int x = 0; x < participantArray.length; ++x) {
+            System.out.println("\nParticipant #" + (x  + 1));
+
             System.out.println("\nEnter name: ");
             name = input.nextLine();
 
