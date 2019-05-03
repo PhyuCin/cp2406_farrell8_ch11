@@ -9,6 +9,7 @@ public class FixDebugEleven4
       buildArray();
       displayArray();
    }
+
    public static void buildArray()
    {
       //declare x as int in for loop
